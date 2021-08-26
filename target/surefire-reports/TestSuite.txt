@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 19.326 s <<< FAILURE! - in TestSuite
+add_product_to_cart(org.example.Test_Add_Product_To_Cart)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.Test_Add_Product_To_Cart.add_product_to_cart(Test_Add_Product_To_Cart.java:32)
+
+go_to_cart(org.example.Test_Add_Product_To_Cart)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.Test_Add_Product_To_Cart.go_to_cart(Test_Add_Product_To_Cart.java:41)
+
+search_a_product(org.example.Test_Add_Product_To_Cart)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.Test_Add_Product_To_Cart.search_a_product(Test_Add_Product_To_Cart.java:17)
+
+select_a_product(org.example.Test_Add_Product_To_Cart)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at org.example.Test_Add_Product_To_Cart.select_a_product(Test_Add_Product_To_Cart.java:26)
+

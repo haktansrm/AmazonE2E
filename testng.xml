@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/siram/Amazon">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>
+            <class name="org.example.Test_Add_Product_To_Cart">
+                <methods>
+                    <include name="search_a_product"/>
+                    <include name="select_a_product"/>
+                    <include name="add_product_to_cart"/>
+                    <include name="go_to_cart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
